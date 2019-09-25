@@ -2,12 +2,6 @@ import App from "next/app";
 import React from "react";
 
 class MyApp extends App {
-  static async getInitialProps() {
-    return {
-      pageProps: {}
-    };
-  }
-
   public render() {
     const { Component, pageProps } = this.props;
 
