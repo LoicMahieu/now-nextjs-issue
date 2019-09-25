@@ -1,0 +1,20 @@
+{
+  "name": "@mysuperapp/website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mysuperapp/settings": "0.1.0",
+    "next": "9.0.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.7",
+    "@types/react": "^16.9.3"
+  }
+}
