@@ -1,6 +1,5 @@
 import React from "react";
-import { defaultLocale } from "@mysuperapp/settings";
 
-const Home = () => <div>Hello world {defaultLocale}</div>;
+const Home = () => <div>Hello world</div>;
 
 export default Home;

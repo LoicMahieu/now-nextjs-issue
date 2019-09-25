@@ -1,5 +1,6 @@
 import App from "next/app";
 import React from "react";
+import {withApollo} from "../lib/withApollo";
 
 class MyApp extends App {
   public render() {
@@ -13,4 +14,4 @@ class MyApp extends App {
   }
 }
 
-export default MyApp;
+export default withApollo(MyApp);
