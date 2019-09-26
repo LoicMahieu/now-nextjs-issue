@@ -2,9 +2,7 @@
   "name": "@mysuperapp/settings",
   "version": "0.1.0",
   "private": true,
-  "module": "./esm/index.js",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc && tsc -b tsconfig-commonjs.json",
