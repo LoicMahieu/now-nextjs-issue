@@ -5,5 +5,11 @@
       "src": "packages/website/package.json",
       "use": "@now/next"
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "packages/website/$1"
+    }
   ]
 }
